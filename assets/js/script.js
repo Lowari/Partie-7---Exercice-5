@@ -8,7 +8,7 @@
 //     return stringLength;
 //   }
 
-getStringLength = string => {
+let getStringLength = string => {
     let stringLength;
     if (string.length === 1) {
         stringLength = "La chaine contient qu'un seul caractère";
